@@ -49,12 +49,13 @@ function Navbar() {
           <Link href='/#Tech'>
             <li>Tech</li>
           </Link>
-          <Link href='/contact'>
-            <li>Contact</li>
-          </Link>
           <Link href='/#Projects'>
             <li>Projects</li>
           </Link>
+          <Link href='/contact'>
+            <li>Contact</li>
+          </Link>
+
           <a href='https://www.linkedin.com/in/markporo/' target="_blank" rel="noopener noreferrer">
             <li>Linkedin</li>
           </a>
@@ -77,11 +78,11 @@ function Navbar() {
           <Link  href='/#Tech'>
             <h5 className=" flex flex-row flex-nowrap justify-start items-center  cursor-pointer py-5 text-sm" ><FaRegKeyboard /><span className="m-1">Tech</span></h5>
           </Link>
-          <Link href='/contact'>
-            <h5 className=" flex flex-row flex-nowrap justify-start items-center  cursor-pointer py-5 text-sm" ><AiOutlineContacts /><span className="m-1">Contact</span></h5>
-          </Link>
           <Link href='/#Projects'>
             <h5 className=" flex flex-row flex-nowrap justify-start items-center  cursor-pointer py-5 text-sm" ><GrProjects /><span className="m-1">Projects</span></h5>
+          </Link>
+          <Link href='/contact'>
+            <h5 className=" flex flex-row flex-nowrap justify-start items-center  cursor-pointer py-5 text-sm" ><AiOutlineContacts /><span className="m-1">Contact</span></h5>
           </Link>
           <SideNavIcons />
       </div>
