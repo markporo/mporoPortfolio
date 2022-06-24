@@ -5,6 +5,10 @@ import { AiOutlineMail } from 'react-icons/ai';
 import Tilt from 'react-parallax-tilt';
 import Link from "next/link";
 
+{/* <a href="https://ibb.co/j8wXD5J"><img src="https://i.ibb.co/Cw9GQtP/myphoto.jpg" alt="myphoto" border="0"></a>
+<a href="https://ibb.co/34rrT5s"><img src="https://i.ibb.co/9c88pmv/myphoto-circle-cutout.png" alt="myphoto-circle-cutout" border="0"></a> */}
+
+
 export default function About() {
   return (
        // ABOUT SECTION CONTAINER
@@ -22,7 +26,7 @@ export default function About() {
              perspective={500}
              scale={1.03}
            >
-             <Image src='/../public/assets/myphoto-circle-cutout.png' width="200" height="200" alt="mporo" />
+             <Image src="https://i.ibb.co/9c88pmv/myphoto-circle-cutout.png" width="200" height="200" alt="mporo" />
            </Tilt>
  
                {/* Rectangle Image */}
@@ -31,7 +35,7 @@ export default function About() {
              perspective={500}
              scale={1.03}
            >
-             <Image className="sm:hidden md:block md:rounded-lg" src='/../public/assets/myphoto.jpg' width="280" height="400" alt="mporo" />
+             <Image className="sm:hidden md:block md:rounded-lg" src="https://i.ibb.co/Cw9GQtP/myphoto.jpg" width="280" height="400" alt="mporo" />
            </Tilt>
          </div>
  
