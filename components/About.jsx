@@ -26,7 +26,7 @@ export default function About() {
              perspective={500}
              scale={1.03}
            >
-             <Image src="https://i.ibb.co/9c88pmv/myphoto-circle-cutout.png" width="200" height="200" alt="mporo" />
+             <Image placeholder="blur" blurDataURL="https://i.ibb.co/zZTV5gy/blurred-myphoto-circle-cutout.png" src="https://i.ibb.co/9c88pmv/myphoto-circle-cutout.png" width="200" height="200" alt="mporo" />
            </Tilt>
  
                {/* Rectangle Image */}
@@ -35,7 +35,7 @@ export default function About() {
              perspective={500}
              scale={1.03}
            >
-             <Image className="sm:hidden md:block md:rounded-lg" src="https://i.ibb.co/Cw9GQtP/myphoto.jpg" width="280" height="400" alt="mporo" />
+             <Image placeholder="blur" blurDataURL="https://i.ibb.co/5sqYvKK/blurred-myphoto.jpg" className="sm:hidden md:block md:rounded-lg" src="https://i.ibb.co/Cw9GQtP/myphoto.jpg" width="280" height="400" alt="mporo" />
            </Tilt>
          </div>
  
@@ -63,10 +63,17 @@ export default function About() {
                 <AiOutlineMail />
                </Link>
              </icon>
-             <button className="" href=''>Projects</button>
+             <Link href='/#Projects'>
+             <button className="">Projects</button>
+             </Link>
            </div>
          </div>
        </div>
      </div>
   )
 }
+
+
+{/* <a href="https://ibb.co/q5ykT5n"><img src="https://i.ibb.co/ZmLWqmJ/blurred-Poro-site.jpg" alt="blurred-Poro-site" border="0"></a>
+<a href="https://ibb.co/r5nbMdd"><img src="https://i.ibb.co/5sqYvKK/blurred-myphoto.jpg" alt="blurred-myphoto" border="0"></a>
+<a href="https://ibb.co/KWpxGgM"><img src="https://i.ibb.co/zZTV5gy/blurred-myphoto-circle-cutout.png" alt="blurred-myphoto-circle-cutout" border="0"></a> */}

@@ -14,7 +14,7 @@ export default function ProjectCard({cardClass, eachProject }) {
         <div className="max-w-[200px] min-w-[100px] m-auto">
           <source srcSet={eachProject.src} type="image/webp" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <Image className={imageStyle} src={eachProject.src} alt={eachProject.alt} />
+          <Image placeholder="blur" quality={75} blurDataURL="https://i.ibb.co/ZmLWqmJ/blurred-Poro-site.jpg" className={imageStyle} src={eachProject.src} width="200" height="200" alt={eachProject.alt} />
         </div>
         </a>
         <div className="flex flex-col items-center justify-center marker:w-1/3 xs:w-1/2 pl-1 xs:pl-0 xs:px-1">
