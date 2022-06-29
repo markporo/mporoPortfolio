@@ -38,7 +38,7 @@ function Navbar() {
             alt="mp" 
             layout="fixed"
           />
-          <h2 className="ml-1.5">mporo</h2>
+          <h2 className="ml-1.5 font-nothing-you-can-do">mporo</h2>
         </div>
 
         {/* Nav Titles and Links */}

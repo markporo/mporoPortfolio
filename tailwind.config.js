@@ -16,7 +16,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'open-sans': ['"Open Sans"', 'sans-serif']
+        
+        'nothing-you-can-do': ['Nothing You Could Do', 'cursive'],
+        'Swanky-Moo-Moo': ['Swanky and Moo Moo', 'cursive'],
+        'Reenie-Beanie': ['Reenie Beanie', 'cursive'],
+        'open-sans': ['Open Sans', 'sans-serif'],
       },
       colors: {
         'snow': '#E5E5E5',

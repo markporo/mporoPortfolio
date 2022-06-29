@@ -11,7 +11,8 @@ export default function Home() {
       <Head>
         <title>markporo|web developer</title>
         <meta name="description" content="Mark Porostosky's Web Development Portfolio" />
-        <link rel="icon" href="" />
+        {/* <link rel="icon" href="" /> */}
+      
       </Head>
       <Navbar />
       <Main />

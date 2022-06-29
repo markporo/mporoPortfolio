@@ -31,7 +31,7 @@ export default function ProjectsArchive() {
         </div>
         <Link href='/'>
         <div className="-mt-4 flex justify-center items-center sm:justify-end flex-row max-w-[1450px]" >
-          <div className=" flex justify-center items-center h-10 rounded-xl mr-0 sm:mr-36 hover:scale-110 ease-in-out duration-300 bg-offwhite border-2 border-bblue w-44  text-center">
+        <div className=" p-4 bg-gradient-to-r from-secblue to-pdark text-pwhite hover:bg-gradient-to-r hover:from-pdark hover:to-secblue  hover:scale-105 ease-in-out duration-100 flex justify-center items-center h-10 rounded-xl mr-0 sm:mr-36 text-center">
             <h4> Back to Home </h4>
           </div>
         </div>

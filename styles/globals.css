@@ -3,7 +3,66 @@
 @tailwind utilities;
 
 /* Google Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@96.5,350&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@96.5,350&display=swap');  */
+
+/* Bubbles on main image hover */
+.mainImage::after{
+	content: "";
+	position: absolute;
+	right: 40%;
+	top: 4px;
+	width: 16px;
+	height: 16px;
+	background: #f178b0;
+	border-radius: 50%;
+	opacity: 0;
+}
+.mainImage::before{
+	content: "";
+	position: absolute;
+	right: 40%;
+	top: 24px;
+	width: 8px;
+	height: 8px;
+	background: #f178b0;
+	border-radius: 50%;
+	opacity: 0;
+  z-index: 200;
+}
+
+
+/* .mainImage:hover {
+	animation: bubbles infinite 3s linear;
+} */
+
+@keyframes bubbles{
+	from{
+		opacity: 0;
+		top: 40px;
+    
+	}
+	20%{
+		opacity: 0.5;
+		top: 20px;
+	}
+	70%{
+		
+		opacity: 1;
+		top: 0px;
+	}
+	70%{
+
+		opacity: 0;
+		top: -10px;
+	}
+	100%{
+		opacity: 0;
+		top: -20px;
+	}
+}
+
 
 
 @layer base {
@@ -46,7 +105,7 @@
   }
 
   button {
-    @apply mb-3 mx-3 mt-6 xs:mt-0 w-10/12 xs:w-auto p-2 first-line:first-line:shadow-xl shadow-gray-400 h-10 rounded-xl uppercase bg-gradient-to-r from-secblue to-pdark text-pwhite hover:scale-110 ease-in-out duration-100
+    @apply mb-3 mx-3 mt-6 xs:mt-0 w-10/12 xs:w-auto p-2 shadow-md shadow-gray-400 h-10 rounded-xl uppercase bg-gradient-to-r from-secblue to-pdark text-pwhite hover:scale-110 ease-in-out duration-100
   }
 
   i {
