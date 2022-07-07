@@ -9,8 +9,8 @@ export default function Contact() {
   return (
     <div className="">
       <Navbar />
-      <div className="flex flex-col justify-center items-center mb-24">
-        <form className=" rounded-lg -mb-4 mt-36 text-pwhite bg-bblue w-2/5 min-w-[260px] text-center h-[325px] flex flex-col justify-center items-center" id="contact" name="contact" method="POST" data-netlify="true">
+      <div className="flex flex-col justify-center items-center">
+        <form className=" rounded-lg mb-12 mt-36 text-pwhite bg-bblue w-2/5 min-w-[260px] text-center h-[325px] flex flex-col justify-center items-center" id="contact" name="contact" method="POST" data-netlify="true">
           <label>Contact Me</label>
 
           <input type="text" name="name" placeholder="  Your Name" />
