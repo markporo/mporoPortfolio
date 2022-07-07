@@ -97,7 +97,7 @@
   }
 
   li {
-    @apply cursor-pointer ml-10 text-sm uppercase hover:text-gray-700 hover:border-b border-gray-700 transition-all duration-[50ms]
+    @apply cursor-pointer ml-10 text-[16px] lg:text-lg  uppercase hover:text-gray-700 hover:border-b border-gray-700 transition-all duration-[50ms]
   }
 
   h5 {

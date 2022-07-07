@@ -18,7 +18,7 @@ function Navbar() {
 
 
   let sideNav;
-  isOpen ? sideNav = 'z-[200] bg-pwhite transition-all duration-300 ease-in-out fixed left-0 top-20 shadow-md md:hidden uppercase  w-7/12 border-r border-b border-gray-300 h-screen' 
+  isOpen ? sideNav = 'z-[200] bg-offwhite transition-all duration-300 ease-in-out fixed left-0 top-20 shadow-md md:hidden uppercase  w-7/12 border-r border-b border-gray-300 h-screen' 
           :
            sideNav = 'bg-white fixed -left-full top-20 ease-in duration-500 transition-all shadow-md md:hidden uppercase  w-7/12 border-r border-b border-gray-300 h-screen';
 

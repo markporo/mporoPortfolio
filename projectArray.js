@@ -9,8 +9,10 @@ import spotify from './public/assets/spotifyLogo.png';
 import todo from './public/assets/TODO.png';
 import wmp from './public/assets/WMP-square.png';
 import newPortfolio from './public/assets/newPortfolio.png';
+import firePhoto from './public/assets/firePhoto.png'
 
 export const projects = [
+  { src: firePhoto, id: 11, title: "FirePhoto", alt: "fire photos", githubUrl: "https://github.com/markporo/firephoto", liveUrl: "https://fire-photo-mporo.web.app/", description: "Add a photo for future inspiration to this instagram like photo album.  It uses react for front end and firebase for database storage and hosting." },
   { src: newPortfolio, id: 10, title: "This Portfolio", alt: "mporo portfolio", githubUrl: "https://github.com/markporo/mporoPortfolio", liveUrl: "https://mporo.netlify.app/", description: "My redesigned portfolio where you can view some of the projects I have worked on!  It is built with Next.Js framework and uses mostly Tailwind for styling." },
   { src: robros, id: 0, title: "Robros", alt: "Robot Friends", githubUrl: "https://github.com/markporo/myrobros", liveUrl: "https://robros.netlify.app/", description: "This project features an address book for all my robot friends.  The focus of this project was to get acquainted with a few 2022 React updates as well as styling the site with the Tailwind css-framework.  In this clean layout, you can search for a specific robot friend and receive their information with the help from a few API requests." },
   { src: "https://i.ibb.co/sQHC9Wf/Wedding-Site.jpg", id: 2, title: "The Wedding", alt: "M + S: THE WEDDING", githubUrl: "https://github.com/markporo/theWedding", liveUrl: "https://young-savannah-18383.herokuapp.com/", description: "This was a special project for obvious reasons. Before I enrolled and graduated from Bloom Institute of Technology I built this with strictly HTML, CSS, Javascript, and Mongoose/ Mongo DB.  The main feature includes an RSVP form that allowed guests to submit data.  Try it out with the name --Mark Porostosky!" },
